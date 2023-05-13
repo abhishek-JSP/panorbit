@@ -1,0 +1,248 @@
+.landing_page_bg {
+  /* background-color: #f4d03f; */
+  background-image: linear-gradient(90deg, #74EBD5 0%, #9FACE6 100%);
+  background-size: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%; 
+}
+
+:root {
+  --white: rgba(194, 191, 191, 0.968);
+}
+
+/* section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  width: 100%;
+} */
+
+.img {
+  width: 8.5%;
+  border-radius: 50%;
+}
+
+.card-header {
+  width: 680px;
+  height: 12.5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.752);
+  border-radius: 20px 20px 0 0;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 15px;
+}
+
+.card-header h2 {
+  font-size: 2rem;
+  color: rgb(0, 0, 0);
+  font-family: "Courier New", Courier, monospace;
+}
+
+.card-body {
+  overflow: hidden;
+  overflow-y: scroll;
+  width: 680px;
+  height: 500px;
+  background-color: rgba(13, 57, 95, 0.629);
+  border-radius: 0 0 20px 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.card-body::-webkit-scrollbar {
+  width: 1.5rem;
+}
+
+.card-body::-webkit-scrollbar-thumb {
+  background-color: var(--white);
+  border-radius: 1rem;
+  border: 0.5rem solid transparent;
+  background-clip: content-box;
+}
+
+.card-body::-webkit-scrollbar-button {
+  height: 100vh;
+}
+
+.card-body .card-details {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: auto;
+  border-bottom: 1px solid black;
+  width: 85%;
+  text-decoration: none;
+}
+
+.card-body .card-details p {
+  margin-left: 0.8rem;
+  font-size: larger;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  color: white;
+}
+
+@media screen and (max-width: 1401.79px) {
+    .card-body {
+      overflow: hidden;
+      overflow-y: scroll;
+      width: 580px;
+      height: 500px;
+      background-color: rgba(13, 57, 95, 0.629);
+      border-radius: 0 0 20px 20px;
+      transition: ease all 0.5s;
+    }
+  
+    .card-header {
+      width: 580px;
+      height: 12.5vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: rgba(255, 255, 255, 0.752);
+      border-radius: 20px 20px 0 0;
+      transition: ease all 0.5s;
+    }
+  }
+
+@media screen and (max-width: 700px) {
+  .card-body {
+    overflow: hidden;
+    overflow-y: scroll;
+    width: 580px;
+    height: 500px;
+    background-color: rgba(13, 57, 95, 0.629);
+    border-radius: 0 0 20px 20px;
+    transition: ease all 0.5s;
+  }
+
+  .card-header {
+    width: 580px;
+    height: 12.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.752);
+    border-radius: 20px 20px 0 0;
+    transition: ease all 0.5s;
+  }
+}
+
+@media screen and (max-width: 630px) {
+.card-body {
+    overflow: hidden;
+    overflow-y: scroll;
+    width: 500px;
+    height: 500px;
+    background-color: rgba(13, 57, 95, 0.629);
+    border-radius: 0 0 20px 20px;
+    transition: ease all 0.5s;
+  }
+
+  .card-header {
+    width: 500px;
+    height: 12.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.752);
+    border-radius: 20px 20px 0 0;
+    transition: ease all 0.5s;
+  }
+}
+
+@media screen and (max-width: 500px) {
+.card-body {
+    overflow: hidden;
+    overflow-y: scroll;
+    width: 420px;
+    height: 500px;
+    background-color: rgba(13, 57, 95, 0.629);
+    border-radius: 0 0 20px 20px;
+    transition: ease all 0.5s;
+  }
+
+  .card-header {
+    width: 420px;
+    height: 12.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.752);
+    border-radius: 20px 20px 0 0;
+    transition: ease all 0.5s;
+  }
+}
+
+@media screen and (max-width: 445px) {
+  .card-body {
+    overflow: hidden;
+    overflow-y: scroll;
+    width: 340px;
+    height: 500px;
+    background-color: rgba(13, 57, 95, 0.629);
+    border-radius: 0 0 20px 20px;
+    transition: ease all 0.5s;
+  }
+
+  .card-header {
+    width: 340px;
+    height: 12.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.752);
+    border-radius: 20px 20px 0 0;
+    transition: ease all 0.5s;
+  }
+}
+
+@media screen and (max-width: 340px) {
+.card-body {
+    overflow: hidden;
+    overflow-y: scroll;
+    width: 260px;
+    height: 500px;
+    background-color: rgba(13, 57, 95, 0.629);
+    border-radius: 0 0 20px 20px;
+    transition: ease all 0.5s;
+  }
+
+.card-header {
+    width: 260px;
+    height: 12.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.752);
+    border-radius: 20px 20px 0 0;
+    transition: ease all 0.5s;
+  }
+}
+
+@media screen and (max-width: 265px) {
+.card-body {
+    overflow: hidden;
+    overflow-y: scroll;
+    width: 180px;
+    height: 500px;
+    background-color: rgba(13, 57, 95, 0.629);
+    border-radius: 0 0 20px 20px;
+    transition: ease all 0.5s;
+  }
+
+.card-header {
+    width: 180px;
+    height: 12.5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.752);
+    border-radius: 20px 20px 0 0;
+    transition: ease all 0.5s;
+  }
+}

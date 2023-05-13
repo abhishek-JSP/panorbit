@@ -1,0 +1,75 @@
+.user_chat_status {
+  background: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+:root {
+  --white: rgba(194, 191, 191, 0.968);
+}
+
+.img {
+  width: 12.5%;
+  border-radius: 50%;
+}
+
+.chatbox-header {
+  width: 274.5px;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  background-color: rgba(36, 185, 185, 0.789);
+  border-radius: 10px 10px 0 0;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 0px 15px;
+  padding: 3px;
+}
+
+.chatbox-header h2 {
+  font-size: 1.5rem;
+  margin-left: 0.5rem;
+  color: rgb(0, 0, 0);
+  font-family: "Courier New", Courier, monospace;
+}
+
+.chatbox-body {
+  overflow: hidden;
+  overflow-y: scroll;
+  width: 280px;
+  height: 45vh;
+  z-index: 1;
+  background:white;
+  /* background-color: rgba(13, 57, 95, 0.629); */
+  border-radius: 0 0 20px 20px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.chatbox-body::-webkit-scrollbar {
+  width: 1.5rem;
+}
+
+.chatbox-body::-webkit-scrollbar-thumb {
+  background-color: var(--white);
+  border-radius: 1rem;
+  border: 0.5rem solid transparent;
+  background-clip: content-box;
+}
+
+.chatbox-body .card-details {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin: auto;
+  width: 85%;
+  text-decoration: none;
+}
+
+.chatbox-body .card-details p {
+  margin-left: 0.8rem;
+  font-size: medium;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 200;
+  color: rgb(76, 73, 73);
+}
